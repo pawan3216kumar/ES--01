@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+</body>
+<script>
+    let toLowerCase = (char) => {
+      if(char >='A' && char <= 'Z'){
+        char = char.toLowerCase()
+      }
+      return char;
+    }
+    
+   const char = 'ABHSBCJHSDAFJ'
+   const lowerCaseChar = toLowerCase(char)
+   console.log(lowerCaseChar)
+
+   var name = ["Pawan" , "Akash" ,"Vimal"].map(function(String){
+    return String.toLowerCase()
+   })
+
+   console.log(name)
+</script>
+</html>
